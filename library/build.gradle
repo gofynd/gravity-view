@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 25
+        versionCode 1
+        versionName "0.1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+ext {
+
+    //For bintray and jcenter distribution
+    bintrayRepo = 'maven'
+    bintrayName = 'gravity-view'
+
+    bintrayOrg = 'fynd'
+
+    publishedGroupId = 'co.gofynd.library'
+    libraryName = 'GravityViewLibrary'
+    artifact = 'library' //This artifact name should be the same with library module name
+
+    libraryDescription = 'Gravity view - swipe is so yesterday'
+
+    siteUrl = 'https://github.com/fahimsakri/gravity-view'
+    gitUrl = 'https://github.com/fahimsakri/gravity-view.git'
+    libraryVersion = '0.1.0'
+    developerId = 'fahim sakri '
+    developerName = 'Fahim Sakri'
+    developerEmail = 'fahimsakri@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'  //Example for license
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.2.0'
+
+    testCompile 'junit:junit:4.12'
+}
+
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/fahimsakri/JCenter/master/install.gradle'
+apply from: 'https://raw.githubusercontent.com/fahimsakri/JCenter/master/bintray.gradle'
