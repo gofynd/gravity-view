@@ -18,7 +18,7 @@ maven {
    url 'https://dl.bintray.com/fynd/maven/'
    }
 dependencies {
-    compile 'co.gofynd.library:gravity-view:0.1.0'
+    compile 'co.gofynd.library:gravity-view:1.0'
 }
 ```
 
