@@ -8,7 +8,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 25
         versionCode 1
-        versionName "0.1.0"
+        versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -34,12 +34,12 @@ ext {
 
     libraryDescription = 'Gravity view - swipe is so yesterday'
 
-    siteUrl = 'https://github.com/fahimsakri/gravity-view'
-    gitUrl = 'https://github.com/fahimsakri/gravity-view.git'
-    libraryVersion = '0.1.0'
+    siteUrl = 'https://gitlab.com/fynd/gravity-view'
+    gitUrl = 'https://gitlab.com/fynd/gravity-view'
+    libraryVersion = '1.0'
     developerId = 'fahim sakri '
     developerName = 'Fahim Sakri'
-    developerEmail = 'fahimsakri@gmail.com'
+    developerEmail = 'fahimsakri@gofynd.com'
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]

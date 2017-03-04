@@ -1,11 +1,9 @@
 # Gravity View for Android
 
 
-Gravity view library is inspired from Facebook’s Instant Articles and implemented smooth tilt on a single image. 
+GravityView is an Android adaptation of Facebook instant articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.
 
-Gravity view is implemented in the app called [Fynd](https://play.google.com/store/apps/details?id=co.go.fynd) available on Playstore.
-
-Note: This will only work on device having gyroscope sensor.
+You can read more about GravityView article [here](https://blog.gofynd.com/introducing-gravity-because-swiping-is-so-yesterday-4aebd89f0e21)
 
 ### Requirements
   - Android 3.0 or higher
