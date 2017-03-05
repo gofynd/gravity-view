@@ -30,14 +30,14 @@ ext {
 
     publishedGroupId = 'co.gofynd.library'
     libraryName = 'GravityViewLibrary'
-    artifact = 'library' //This artifact name should be the same with library module name
+    artifact = 'gravity-view' //This artifact name should be the same with library module name
 
     libraryDescription = 'Gravity view - swipe is so yesterday'
 
     siteUrl = 'https://gitlab.com/fynd/gravity-view'
-    gitUrl = 'https://gitlab.com/fynd/gravity-view'
+    gitUrl = 'https://gitlab.com/fynd/gravity-view.git'
     libraryVersion = '1.0'
-    developerId = 'fahim sakri '
+    developerId = 'fahimsakri '
     developerName = 'Fahim Sakri'
     developerEmail = 'fahimsakri@gofynd.com'
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
