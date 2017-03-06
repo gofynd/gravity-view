@@ -50,7 +50,7 @@ dependencies {
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        gravityView = GravityView.init(this)
+        gravityView = GravityView.getInstance(this)
                 .setImage(bg, R.drawable.landingbg)
                 .center();
     }
