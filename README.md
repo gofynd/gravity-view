@@ -73,7 +73,7 @@ boolean is_supported = gravityView.deviceSupported();
 ```
 
 ## License
-    Copyright 2012 CyberAgent, Inc.
+    Copyright 2017 Shopsense Retail Technologies Pvt Ltd.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
