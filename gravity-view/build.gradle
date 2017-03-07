@@ -34,8 +34,8 @@ ext {
 
     libraryDescription = 'Gravity view - swipe is so yesterday'
 
-    siteUrl = 'https://gitlab.com/fynd/gravity-view'
-    gitUrl = 'https://gitlab.com/fynd/gravity-view.git'
+    siteUrl = 'https://github.com/gofynd/gravity-view'
+    gitUrl = 'https://github.com/gofynd/gravity-view.git'
     libraryVersion = '1.0'
     developerId = 'fahimsakri '
     developerName = 'Fahim Sakri'
