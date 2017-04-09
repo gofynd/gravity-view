@@ -72,6 +72,17 @@ dependencies {
 boolean is_supported = gravityView.deviceSupported();
 ```
 
+## Contributions
+
+Any contributions are welcome!  
+Please check the [contributing guideline](https://github.com/gofynd/gravity-view/blob/master/CONTRIBUTING.md) before submitting a new issue.
+
+
+## Developed By
+
+* Fahim Sakri
+
+
 ## License
     Copyright 2017 Shopsense Retail Technologies Pvt Ltd.
 
