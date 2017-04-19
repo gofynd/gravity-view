@@ -2,9 +2,9 @@
 
 [![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Gravity%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5477)
 
-GravityView is an Android adaptation of Facebook instant articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.
+Gravity View is an Android adaptation of Facebook instant articles. The concept behind the library is to utilize the motion sensors of an Android device and allow the end user to explore the product by rotating his device. It uses gyroscope motion sensor readings to scroll the image.
 
-You can read more about GravityView article [here](https://blog.gofynd.com/introducing-gravity-because-swiping-is-so-yesterday-4aebd89f0e21)
+You can read more about Gravity View article [here](https://blog.gofynd.com/introducing-gravity-because-swiping-is-so-yesterday-4aebd89f0e21)
 
 
 [![Gravity View video](http://img.youtube.com/vi/IrNr-J1s8f8/0.jpg)](http://www.youtube.com/watch?v=IrNr-J1s8f8)
