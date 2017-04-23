@@ -1,1 +1,1 @@
-include ':sample', ':gravity-view'
+include ':sample', ':gravityview'
