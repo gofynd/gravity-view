@@ -9,6 +9,10 @@ You can read more about Gravity View article [here](https://blog.gofynd.com/intr
 
 [![Gravity View video](http://img.youtube.com/vi/IrNr-J1s8f8/0.jpg)](http://www.youtube.com/watch?v=IrNr-J1s8f8)
 
+## Demo
+
+Install [Demo](https://github.com/gofynd/gravity-view/releases/download/v1.0/gravityview-1.0.apk) app or APK from [Releases](https://github.com/gofynd/gravity-view/releases) on your device and experience the gravity view.
+
 ### Requirements
   - Android 3.0 or higher
 
@@ -16,9 +20,6 @@ You can read more about Gravity View article [here](https://blog.gofynd.com/intr
 ### Gradle dependency
 
 ```
-maven {
-   url 'https://dl.bintray.com/fynd/maven/'
-   }
 dependencies {
     compile 'co.gofynd.library:gravity-view:1.0'
 }
@@ -74,9 +75,14 @@ dependencies {
 boolean is_supported = gravityView.deviceSupported();
 ```
 
+## Roadmap
+
+- Multiple image support
+- Support for Non-Gyroscope devices using Accelerometer sensor
+
 ## Contributions
 
-Any contributions are welcome!  
+Any contributions are welcome!
 Please check the [contributing guideline](https://github.com/gofynd/gravity-view/blob/master/CONTRIBUTING.md) before submitting a new issue.
 
 
