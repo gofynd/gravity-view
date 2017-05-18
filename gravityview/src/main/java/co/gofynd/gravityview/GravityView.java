@@ -60,8 +60,31 @@ public class GravityView implements SensorEventListener {
         return gravityView;
     }
 
+    public GravityView setImage(ImageView image, Bitmap bitmap) {
+        image_view = image;
+        Bitmap bmp = resizeBitmap(Common.getDeviceHeight(mContext), bitmap);
+        image_view.setLayoutParams(new HorizontalScrollView.LayoutParams(bmp.getWidth(), bmp.getHeight()));
+        image_view.setImageBitmap(bmp);
+        mMaxScroll = bmp.getWidth();
+        if (image.getParent() instanceof HorizontalScrollView) {
+            ((HorizontalScrollView) image.getParent()).setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View view, MotionEvent motionEvent) {
+                    return true;
+                }
+            });
+        }
+        return gravityView;
+    }
+
     private Bitmap resizeBitmap(int targetH, int drawable) {
         Bitmap bitmap = BitmapFactory.decodeResource(mContext.getResources(), drawable);
+        mImageWidth = (bitmap.getWidth() * Common.getDeviceHeight(mContext)) / bitmap.getHeight();
+
+        return Bitmap.createScaledBitmap(bitmap, mImageWidth, targetH, true);
+    }
+
+    private Bitmap resizeBitmap(int targetH, Bitmap bitmap) {
         mImageWidth = (bitmap.getWidth() * Common.getDeviceHeight(mContext)) / bitmap.getHeight();
 
         return Bitmap.createScaledBitmap(bitmap, mImageWidth, targetH, true);
