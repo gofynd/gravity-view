@@ -39,7 +39,6 @@ ext {
     libraryVersion = '1.0'
     developerId = 'fahimsakri '
     developerName = 'Fahim Sakri'
-    developerEmail = 'fahimsakri@gofynd.com'
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
